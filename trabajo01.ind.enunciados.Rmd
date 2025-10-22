@@ -1,0 +1,96 @@
+---
+title: "Trabajo01"
+author: "Marta Martín Fernández"
+date: "2025-10-15"
+output: 
+  pdf_document: default
+  html_document: default
+---
+
+# PROBLEMA 1
+
+
+#### Nos ha tocado un cupón de 10.000 euros y queremos encontrar la mejor opción para utilizarlo. 
+
+
+#### ALTERNATIVAS:
+    
+    
+$$
+\begin{array}{c}
+A_1: \text{Ahorrar todo el dinero para una inversión en el futuro.}\\
+A_2: \text{Gastar la mayoría del dinero en un viaje en familia.}\\
+A_3: \text{Gastar la mitad del dinero en comprar un coche de segunda mano.}
+\end{array}
+$$
+
+    
+#### Como no sé cómo será mi economía en el futuro, observamos tres posibles ESTADOS:
+
+
+$$
+\begin{array}{c}
+E_1:\ \text{Mi situación económica mejora.}\\
+E_2:\ \text{Mi economía se mantiene estable.}\\
+E_3:\ \text{Mi economía empeora.}
+\end{array}
+$$
+
+
+#### TABLA DE DECISIÓN 
+
+
+
+$$
+\begin{array}{lccc}
+\textbf{Alternativa / Estado} & E_1: \text{Mejora} & E_2: \text{Estable} & E_3: \text{Empeora} \\[4pt]
+A_1: \text{Ahorro} & 15000 & 11000 & 8000 \\[4pt]
+A_2: \text{Viaje familiar} & 13000 & 9000 & 5000 \\[4pt]
+A_3: \text{Coche} & 12000 & 10000 & 6000
+\end{array}
+$$
+
+
+
+# PROBLEMA 2
+
+
+#### Queremos organizar un troneo de voleibol para la pretemporada en el pabellón de nuestra ciudad. Tenemos que decidir qué equipos nos interesa que vengan para ver la repercusión que puede tener en la ciudad. 
+
+
+#### ALTERNATIVAS:
+
+    
+$$
+\begin{array}{c}
+A_1: \text{Organizar el torneo solo para los equipos locales.}\\
+A_2: \text{Invitar al torneo a equipos nacionales amigos.}\\
+A_3: \text{Hacer el torneo a puerta abierta, que cualquier equipo pueda participar.}
+\end{array}
+$$
+  
+    
+#### La repercusión de estas invitaciones repercute en la asistencia y lo que se ganará durante esos días, distinguiendose 3 ESTADOS:
+
+
+$$
+\begin{array}{c}
+E_1:\ \text{Alta asistendia de público .}\\
+E_2:\ \text{Asistencia media pero notable.}\\
+E_3:\ \text{Poca asistencia.}
+\end{array}
+$$
+
+
+#### TABLA DE DECISIÓN 
+
+
+$$
+\begin{array}{lccc}
+\textbf{Alternativa / Estado} & E_1: \text{A.alta} & E_2: \text{A.media} & E_3: \text{A.poca} \\[4pt]
+A_1: \text{E.locales} & 15000 & 11000 & 8000 \\[4pt]
+A_2: \text{E.nacionales} & 13000 & 9000 & 5000 \\[4pt]
+A_3: \text{Puerta abierta} & 12000 & 10000 & 6000
+\end{array}
+$$
+
